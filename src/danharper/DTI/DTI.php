@@ -5,7 +5,7 @@ use DateInterval;
 
 class DTI {
 
-	public function parse($input, $defaultDate = null)
+	public function parse($input, $defaultDate = "now")
 	{
 		if ( ! $defaultDate instanceof DateTime)
 		{
